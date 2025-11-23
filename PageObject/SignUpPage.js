@@ -25,6 +25,7 @@ class SignUpPage {
         await this.name.fill("Nikita");
         await this.email.fill(email);
         await this.signupbtn.click();
+        await page.pause();
 
     }
 }
